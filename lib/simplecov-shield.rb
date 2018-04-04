@@ -5,7 +5,7 @@ require 'httparty'
 
 class SimpleCov::Formatter::ShieldFormatter
   SHIELD_ROOT = 'http://img.shields.io/badge'
-  STYLES = ['flat']
+  STYLES = ['flat', 'plastic', 'for-the-badge' 'flat-square', 'social']
 
   @config = {
     :badge_name => 'coverage',
